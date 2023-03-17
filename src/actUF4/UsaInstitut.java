@@ -3,7 +3,7 @@ package actUF4;
 public class UsaInstitut {
 
 	public static void main(String[] args) {
-		Institut JaumeHuguet = new Institut ("Jaume Huguet", 100);
+		Institut JaumeHuguet = new Institut ("Jaume Huguet", 100);   //mai posem les variables en majuscules
 		Institut NarcísOller = new Institut ("Narcís Oller", 100);
 		
 		Alumne Alexis = new Alumne ("Alexis", 19, "P2976765", "alexis@gmail.com");
@@ -22,7 +22,7 @@ public class UsaInstitut {
 		NarcísOller.afegirAlumne(Arnau);
 		NarcísOller.afegirAlumne(Manel);
 		
-		for(int i=0; i<3; i++){
+		for(int i=0; i<3; i++){                            // podries millirar-la amb els toString
 			System.out.println("Alumnes del Jaume Huguet: ");
 			System.out.println(JaumeHuguet.getLlistaAlumnes()[i].getNom());
 			System.out.println("Alumnes del Jaume Huguet: ");
