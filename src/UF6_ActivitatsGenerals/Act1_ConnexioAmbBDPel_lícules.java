@@ -97,6 +97,10 @@ public class Act1_ConnexioAmbBDPel_lícules {
             			connexioClose();
             			teclat.close();
             		break;
+            		
+            	default:
+        			System.out.println("Opció incorrecta!! Elegeix una opció vàlida \n");
+        			break;
             }
         }while(opcio != "2");
       }
